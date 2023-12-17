@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
+
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 
     font-family: 'Inter', sans-serif;
 
@@ -20,17 +21,17 @@ body {
     
     /*background-image: linear-gradient(to right top, #171e35, #171e35, #222333, #2a2932, #303030);*/
    /* background-image: linear-gradient(to right, #DECBA4, #3E5151);*/
-
-   background-color: #c2e0f3;
+   background-color: #f5fbed;
    background-image: linear-gradient(135deg, #c2e0f3 0%, #e2e2f5 50%, #f5fbed 100%);
    
    
    opacity: 0.8;
+
    background-image:  radial-gradient(rgba(0, 0, 0, 0.173) 0.5px, transparent 0.5px), radial-gradient(#c2e0f3 0.5px, #f5fbed 0.5px);
    background-size: 20px 20px;
    background-position: 0 0,10px 10px;
 
-
+    overscroll-behavior: none;
 }
 
 
@@ -92,7 +93,6 @@ nav {
 
 
 canvas {
-    border: 1px solid black;
 }
 
 .slidecontainer {
@@ -145,10 +145,14 @@ canvas {
 }
 
 .slider {
-    width: 80%;
+    background: green;
+    outline: none;
+    border:none;
+    width: 90%;
 }
+
 output {
-    width: 20%;
+    width: 10%;
 }
 
 .check-box {
@@ -201,6 +205,7 @@ output {
 
 strong {
     margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 
@@ -227,3 +232,8 @@ strong {
     }
 
 }
+
+
+
+
+
