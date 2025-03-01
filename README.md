@@ -11,13 +11,13 @@ Each boid aligns its direction and speed with the average velocity of nearby boi
 ### 3. Cohesion (Stay Close)
 Each boid moves toward the center of mass of nearby boids to stay part of the group.
 
-- The toolbar provides access to adjust these crowding/avoidant behaviors evenly among boids and/or boid type.
-- Discrimination voids the separation behavior between boids of similar color. 
+The toolbar provides access to adjust these crowding/avoidant behaviors evenly among boids and/or boid type.
+Discrimination voids the separation behavior between boids of similar color. 
 
-Emergent Behavior
+### Emergent Behavior
 Despite the simplicity of these rules, the collective behavior that emerges mimics real-world flocking, where boids can:
 
-Form clusters
-* Maintain fluid motion
-* Avoid obstacles
-* dynamically to changes in their environment
+- Form clusters
+- Maintain fluid motion
+- Avoid obstacles
+- Dynamically to changes in their environment
